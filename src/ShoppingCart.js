@@ -2,8 +2,8 @@ class ShoppingCart {
     constructor() {
         this.items = []
     }
-    addItem = (name, quantity, pricePerUnit) => 
-        this.items.push({name, quantity, pricePerUnit})
+    addItem = (name, quantity, pricePerUnit) =>
+        this.items.push({ name, quantity, pricePerUnit })
     getItems = () =>
         this.items
     clear = () =>
